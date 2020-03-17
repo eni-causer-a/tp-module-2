@@ -21,7 +21,7 @@ namespace ConsoleApp2
 
         public override string ToString()
         {
-            return "Triangle de cote A = " + A + " B = " + B + " C = " + C + "\nAire = " + aire() + "\nPerimetre = " + perimetre() + "\n";
+            return "Triangle de cote A = " + A + " B = " + B + " C = " + C  + base.ToString();
         }
     }
 }

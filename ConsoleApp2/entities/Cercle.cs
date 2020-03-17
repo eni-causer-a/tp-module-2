@@ -18,7 +18,7 @@ namespace ConsoleApp2
 
         public override string ToString()
         {
-            return "Cercle de Rayon " + Rayon + "\nAire = " + aire() + "\nPerimetre = " + perimetre() + "\n";
+            return "Cercle de Rayon " + Rayon  + base.ToString();
         }
     }
 }

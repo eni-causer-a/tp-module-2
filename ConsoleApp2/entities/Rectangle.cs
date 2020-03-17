@@ -17,7 +17,7 @@
 
         public override string ToString()
         {
-            return "Rectangle de Longueur " + Longueur + " et de Longueur " + Longueur +"\nAire = " + aire() + "\nPerimetre = " + perimetre() +"\n" ;
+            return "Rectangle de Longueur " + Longueur + " et de Longueur " + Longueur + base.ToString();
         }
     }
 }

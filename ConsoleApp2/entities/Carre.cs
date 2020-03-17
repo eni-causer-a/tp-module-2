@@ -17,7 +17,7 @@
 
         public override string ToString()
         {
-            return "Carre de cote " + Longueur  + "\nAire = " + aire() + "\nPerimetre = " + perimetre() + "\n" ;
+            return "Carre de cote " + Longueur  + base.ToString() ;
         }
 
     }
